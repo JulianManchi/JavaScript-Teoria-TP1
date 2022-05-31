@@ -12,7 +12,7 @@ document.write("Hola Mundo");
 console.log("Hola Mundo");
 
 //mostrar un mensaje en una ventana emergente
-/*alert("Hola Comisión 2i");*/
+//alert("Hola Comisión 2i");
 
 //Crear, declarar, inicializar Variables (var{quedó de desuso} - let - const)
 
