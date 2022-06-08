@@ -1,10 +1,13 @@
-let frase = prompt("Ingrese una frase de 5 caracteres");
+let frase = prompt("Ingrese una frase y te vamos a devolver las vocales de la misma");
 frase = frase.toLowerCase();
+
 // perro
+// length devuelve la cantidad de caracteres
+
 console.log(frase.length);
 console.log(frase.substring(0, 1));
 
-for(let indice = 0; indice < 5; indice = indice + 1){
+for(let indice = 0; indice < frase.length; indice = indice + 1){
     if (
         frase.charAt(indice) === "a" ||
         frase.charAt(indice) === "e" ||
