@@ -4,6 +4,17 @@ frase = frase.toLowerCase();
 console.log(frase.length);
 console.log(frase.substring(0, 1));
 
+for(let indice = 0; indice < 5; indice = indice + 1){
+    if (
+        frase.charAt(indice) === "a" ||
+        frase.charAt(indice) === "e" ||
+        frase.charAt(indice) === "i" ||
+        frase.charAt(indice) === "o" ||
+        frase.charAt(indice) === 'u') {
+        document.write(frase.charAt(indice));
+    }
+}
+
 /*if (
   frase.substring(0, 1) === "a" ||
   frase.substring(0, 1) === "e" ||
@@ -14,7 +25,7 @@ console.log(frase.substring(0, 1));
 }*/
 
 
-//
+/*
 if (
     frase.charAt(0) === "a" ||
     frase.charAt(0) === "e" ||
@@ -22,6 +33,24 @@ if (
     frase.charAt(0) === "o" ||
     frase.charAt(0) === 'u') {
     document.write(frase.charAt(0));
+}
+
+if (
+    frase.charAt(1) === "a" ||
+    frase.charAt(1) === "e" ||
+    frase.charAt(1) === "i" ||
+    frase.charAt(1) === "o" ||
+    frase.charAt(1) === 'u') {
+    document.write(frase.charAt(1));
+}
+
+if (
+    frase.charAt(2) === "a" ||
+    frase.charAt(2) === "e" ||
+    frase.charAt(2) === "i" ||
+    frase.charAt(2) === "o" ||
+    frase.charAt(2) === 'u') {
+    document.write(frase.charAt(2));
 }
 
 if (
@@ -59,7 +88,7 @@ if (
     frase.substring(4, 5) === 'u') {
     document.write(frase.substring(4, 5));
 }
-/*
+
 if (
     frase.substring(0, 1) === "a" ||
     frase.substring(0, 1) === "e" ||
